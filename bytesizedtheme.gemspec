@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name          = "bytesizedcookie-theme"
+  spec.name          = "bytesizedtheme"
   spec.version       = "0.1.0"
   spec.authors       = ["ByteSizedCookie"]
   spec.email         = ["bytesized.cookie@outlook.com"]
