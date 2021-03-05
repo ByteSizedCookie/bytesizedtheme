@@ -3,10 +3,12 @@
   <h2>About the blog:</h2>
   <p>&#169; {{ site.author | escape }}, by {{ site.author | escape }}</p>
   <blockquote>{{- site.description | escape -}}</blockquote>
+  <p>Disclaimer:</p>
+  <blockquote>{{- site.disclaimer | escape -}}</blockquote>
   <p>Contact:</p>
   <ul class="cookies">
     <li>Email: {{ site.author | escape }}</li>
-    <li>Github: {{ site.github | escape }}</li>
+    <li>Github: {{ site.github_username | escape }}</li>
   </ul>
   <p>Credits:</p>
   <ul class="cookies">
